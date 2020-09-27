@@ -20,6 +20,6 @@ export class ServersComponent implements OnInit {
   onReload() {
     // Router knows the path it's in with ActivatedRoute.
     // This way it is navigating the relative path servers onto the current route.
-    this.router.navigate(['servers'], {relativeTo: this.route});
+    // this.router.navigate(['servers'], {relativeTo: this.route});
   }
 }
