@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
 
   onLoadServers() {
     //  Blabla do something special
-    this.router.navigate(['servers']);
+    this.router.navigate(['/servers']);
     //  This has to be an Array
   }
 }
